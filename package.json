@@ -1,0 +1,16 @@
+{
+  "name": "borozdov-monograph",
+  "private": true,
+  "description": "Ink on cold-pressed paper: hairline rules, a monograph's typeset calm, and the barest hint of mint.",
+  "license": "MIT",
+  "scripts": {
+    "lint": "stylelint theme.css",
+    "build": "node scripts/build.mjs",
+    "screenshots": "python3 scripts/screenshots.py"
+  },
+  "devDependencies": {
+    "lucide-static": "^1.47.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-obsidianmd": "^0.1.0"
+  }
+}
